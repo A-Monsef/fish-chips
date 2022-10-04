@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Slabo_27px, sans-serif
+}
+@font-face {
+    font-family: "Slabo_27px";
+    src: url(font/Slabo_27px/Slabo27px-Regular.ttf);
+}
+@font-face {
+    font-family: "Open Sans";
+    src: url(font/OpenSans-Regular.ttf);
+}
+p{
+    font-family: "Open Sans";
+}
+body{
+    background-image:url(images/fond.png);
+    text-align: center;
+    
+}
+.header {
+    background-color: #34B1B2;
+    margin-top: 60px;
+    border-top: 6px solid #2f9696;
+    border-bottom: 6px solid #2f9696;
+}
+ul{
+    margin-bottom: 20px;
+}
+ul li{
+    color: white;
+    text-align: center;
+    margin: 20px;
+}
+.text {
+    color: #66898c;
+    margin-top: 40px;
+}
+.p1{
+    margin-top: 40px;
+}
+.p2{
+    margin: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+.boxmenu {
+    background-color: #D3EEEE;
+    width: 800px;
+    padding-top: 40px;
+}
+.boxreview{
+
+}
+.h1todays{
+    color: #66898c;
+    margin-bottom: 50px;
+}
+.today {
+    color: #2f9696;
+}
+.watercolor {
+    color: #2f9696;
+}
+.h2menu1{
+    color: #66898c;
+    margin-bottom: 30px;
+}
+.image1 {
+    border-radius: 50%;
+    float: left;
+}
+.menu1,.menu2{
+    display: inline-block;
+    width: 300px;
+}
+.menu1{
+    vertical-align: top;
+    margin-right: 40px;
+}
+.paragraph1 {
+    color: #66898c;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.image2 {
+    border-radius: 50%;
+    float: left;
+}
+.reviews{
+    width: 250px;
+    height: 750px;
+    border-top: 6px solid #2f9696;
+    border-bottom: 6px solid #2f9696;
+    border-left: 6px solid  #2f9696;
+    border-right: 6px solid #2f9696;
+    text-align: left;
+    margin-left: 20px;
+    vertical-align: top;
+    position: relative;
+}
+.imagefish{
+    position: absolute;
+    left: 190px;
+    top: -50px;
+}
+.boxmenu,.reviews{
+    display: inline-block;
+}
+.hrev{
+    color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.News{
+       color: #D3EEEE;
+}
+.insiderev{
+    margin-left: 20px;
+    color: white;
+}
+.colordate,.chaticon{
+    color: #D3EEEE;
+}
+
+.button1{
+    padding: 10px;
+    color: white;
+    background-color: #34b1b3;
+    float: right;
+    margin-bottom: 20px;
+    border: none;
+}
+footer img{
+    margin-top: 20px;
+}
+footer p{
+    font-size: 70%;
+}
